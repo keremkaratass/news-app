@@ -1,0 +1,129 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/baseline_logout_24"
+        android:title="Çıkış Yap" />
+
+    <item
+        android:id="@+id/menu_type"
+        android:icon="@drawable/baseline_stars_24"
+        android:title="Başlıklar">
+        <menu android:title="type">
+
+
+            <group
+                android:id="@+id/group_type"
+                android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/menu_home"
+                    android:icon="@drawable/baseline_home_24"
+                    android:title="Size Özel" />
+                <item
+                    android:id="@+id/menu_siyaset"
+                    android:icon="@drawable/baseline_business_center_24"
+                    android:title="Siyaset" />
+                <item
+                    android:id="@+id/menu_ekonomi"
+                    android:icon="@drawable/baseline_attach_money_24"
+                    android:title="Ekonomi" />
+                <item
+                    android:id="@+id/menu_spor"
+                    android:icon="@drawable/baseline_sports_soccer_24"
+                    android:title="Spor" />
+                <item
+                    android:id="@+id/menu_bilim_teknoloji"
+                    android:icon="@drawable/baseline_science_24"
+                    android:title="Bilim ve Teknoloji" />
+                <item
+                    android:id="@+id/menu_yasam"
+                    android:icon="@drawable/baseline_nightlife_24"
+                    android:title="Yaşam" />
+                <item
+                    android:id="@+id/menu_gundem"
+                    android:icon="@drawable/baseline_today_24"
+                    android:title="Gündem" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_newspaper"
+        android:icon="@drawable/baseline_newspaper_24"
+        android:title="Gazeteler">
+        <menu android:title="newspaper">
+
+
+            <group
+                android:id="@+id/group_newspaper"
+                android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/menu_cnnturk"
+                    android:title="CNN TÜRK" />
+                <item
+                    android:id="@+id/menu_milliyet"
+                    android:title="Milliyet" />
+                <item
+                    android:id="@+id/menu_ahaber"
+                    android:title="AHABER" />
+                <item
+                    android:id="@+id/menu_trthaber"
+                    android:title="TRTHaber" />
+                <item
+                    android:id="@+id/menu_sabah"
+                    android:title="Sabah" />
+                <item
+                    android:id="@+id/menu_ntv"
+                    android:title="NTV" />
+                <item
+                    android:id="@+id/menu_takvim"
+                    android:title="Takvim" />
+                <item
+                    android:id="@+id/menu_yenisafak"
+                    android:title="Yeni Şafak" />
+                <item
+                    android:id="@+id/menu_sozcu"
+                    android:title="Sözcü" />
+                <item
+                    android:id="@+id/menu_haberturk"
+                    android:title="Habertürk" />
+                <item
+                    android:id="@+id/menu_fotomac"
+                    android:title="Fotomaç" />
+                <item
+                    android:id="@+id/menu_yeniakit"
+                    android:title="Yeni Akit" />
+                <item
+                    android:id="@+id/menu_cumhuriyet"
+                    android:title="Cumhuriyet" />
+                <item
+                    android:id="@+id/menu_shiftdelete"
+                    android:title="ShiftDelete" />
+                <item
+                    android:id="@+id/menu_aksam"
+                    android:title="Akşam" />
+                <item
+                    android:id="@+id/menu_hurriyet"
+                    android:title="Hürriyet" />
+                <item
+                    android:id="@+id/menu_donanimhaber"
+                    android:title="DonanımHaber" />
+                <item
+                    android:id="@+id/menu_mynet"
+                    android:title="Mynet" />
+                <item
+                    android:id="@+id/menu_star"
+                    android:title="Star" />
+                <item
+                    android:id="@+id/menu_ekonomim"
+                    android:title="Ekonomim" />
+
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "865228879764",
+    "firebase_url": "https://haberler-a63c9-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "haberler-a63c9",
+    "storage_bucket": "haberler-a63c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865228879764:android:c43cb0b23b90861fa70181",
+        "android_client_info": {
+          "package_name": "com.example.newsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865228879764-81028ibsk05nug8h4rb36bdoavd4il9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyTLFUth6YnmZotdbJ3w3KxiPkSxWVRcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865228879764-81028ibsk05nug8h4rb36bdoavd4il9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

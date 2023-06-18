@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WebviewFragment">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="412dp"
+        android:layout_height="545dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp" />
+
+    <ImageButton
+        android:id="@+id/save_button"
+        android:layout_width="61dp"
+        android:layout_height="58dp"
+        android:layout_x="339dp"
+        android:layout_y="553dp"
+        android:background="@color/white"
+        android:contentDescription="save"
+        android:src="@drawable/baseline_download_24" />
+
+    <ImageButton
+        android:id="@+id/like_button"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:layout_x="269dp"
+        android:layout_y="555dp"
+        android:background="@color/white"
+        android:contentDescription="like"
+        android:src="@drawable/baseline_favorite_border_24" />
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:layout_x="9dp"
+        android:layout_y="555dp"
+        android:background="@color/white"
+        android:contentDescription="turn back"
+        android:src="@drawable/outline_arrow_circle_left_24" />
+</AbsoluteLayout>
